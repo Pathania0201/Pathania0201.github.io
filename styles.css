@@ -70,7 +70,6 @@ img {
   padding: 0;
   padding-right: 7%;
   background-color: transparent;
-  
 }
 
 #header .nav-bar .brand {
@@ -122,7 +121,7 @@ img {
   margin-bottom: 8px;
   transition: 0.3s ease transform;
 }
-/* try */
+
 #header .nav-list ul a {
   font-family: Mulil;
   font-size: 18px;
@@ -169,7 +168,7 @@ img {
   justify-content: center;
   z-index: 100;
   cursor: pointer;
- 
+
   margin-right: 20px;
 }
 
@@ -372,8 +371,6 @@ img {
   padding-top: 0cm;
 }
 
-
-
 .portfolio .home-cards-img {
   overflow: hidden;
   margin-bottom: 18px;
@@ -392,7 +389,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  
+
   color: #1d292d;
 }
 
@@ -429,12 +426,9 @@ img {
 }
 
 .portfolio .home-cards .read-more:hover {
- 
   border: #3e5257 solid 2px;
-   background-color: #3e5257;
+  background-color: #3e5257;
   color: #ffffff;
-
-  
 }
 
 /* End of Portfolio Section  */
@@ -442,13 +436,11 @@ img {
 /* dribble button */
 
 .dribbble-button {
-  /* min-height: 30vh; */
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  /* margin-top: 172px; */
 }
 
 .dribbble-button h2 {
@@ -557,7 +549,7 @@ img {
 #about .about-description {
   display: flex;
   flex-direction: column;
-  /* min-height: 100vh; */
+
   width: 100%;
 }
 
@@ -731,7 +723,7 @@ img {
   #header .nav-list ul li {
     display: inline-block;
   }
- 
+
   #header .nav-list ul a:after {
     display: none;
   }
@@ -791,9 +783,7 @@ img {
     line-height: 40px;
     text-align: center;
 
-    
     margin: 64px auto 25px auto;
-    
   }
 
   #hero .hero .big-break {
@@ -1241,7 +1231,6 @@ img {
   }
 
   #about .col-right {
-    /* margin: 20px; */
     width: 100%;
 
     padding-bottom: 0px;
@@ -1255,6 +1244,36 @@ img {
 
   #about .col-left {
     margin-top: 30px;
+  }
+}
+
+/* media query fro a bit small screen  */
+
+@media only screen and (max-width: 1332px) and (min-width: 1200px) {
+  /* dribble button */
+
+  .dribbble-button h2 {
+    margin-left: 9.5%;
+  }
+  .dribbble-button a {
+    margin-left: 9.5%;
+  }
+
+  #footer .index-primary {
+    padding-left: 9.5%;
+  }
+}
+
+@media only screen and (max-width: 1380px) and (min-width: 1332px) {
+  .dribbble-button h2 {
+    margin-left: 11%;
+  }
+  .dribbble-button a {
+    margin-left: 11%;
+  }
+
+  #footer .primary {
+    padding-left: 11%;
   }
 }
 
